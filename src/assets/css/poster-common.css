@@ -1,0 +1,88 @@
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+body {
+    line-height: 1;
+    color: #000;
+    background: #fff
+}
+
+ol, ul {
+    list-style: none
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0
+}
+
+caption, table, td, th {
+    vertical-align: middle
+}
+
+caption, td, th {
+    text-align: left;
+    font-weight: 400
+}
+
+a img {
+    border: none
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    display: block
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+[hidden], audio:not([controls]) {
+    display: none
+}
+
+html {
+    margin: 0 auto
+}
+
+body, html {
+    font-size: 10px;
+    font-family: Helvetica, Tahoma, Arial, Hiragino Sans GB, \\51AC\9752\9ED1\4F53, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STXihei, \\534E\6587\7EC6\9ED1, SimSun, \\5B8B\4F53, Heiti, \\9ED1\4F53, sans-serif;
+    height: 100%;
+    min-width: 320px;
+    max-width: 480px
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+button, input[type=button], input[type=file], input[type=submit] {
+    -webkit-appearance: none
+}
+
+[v-cloak] {
+    display: none
+}
